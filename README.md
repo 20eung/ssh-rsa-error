@@ -5,7 +5,8 @@
 > 서버의 auth.log 파일을 살펴보면 아래와 같이 나온다.
 
 ```
-sshd[11076]: Unable to negotiate with xx.xx.xx.xx port 49520: no matching host key type found. Their offer: ssh-rsa,ssh-dss [preauth]
+sshd[11076]: Unable to negotiate with xx.xx.xx.xx port 49520: 
+no matching host key type found. Their offer: ssh-rsa,ssh-dss [preauth]
 ```
 
 해결 방법을 구글링 하였으나 모두 실패하고, 내가 성공한 방법은 아래와 같다.
